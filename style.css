@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: imapct, haettenschweiler, 'arial narrow bold', sans-serif; 
+}
+
+header{
+    background: #7f8e3b;
+    color: #477890;
+    height: #8DAABA;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header a{
+    color: #021012;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.0938rem;
+    padding: 0.5rem;
+    border-radius: 7px;
+}
+
+
+nav{
+    display: flex;
+    gap: 7rem; 
+}
+
+header a:hover{
+    background: #e1e7e7;
+    transform: scale(1.1);
+    transition: transform .5s;
+}
